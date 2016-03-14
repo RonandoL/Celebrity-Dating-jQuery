@@ -13,7 +13,9 @@ $(function() {
     $('.woman-under50').hide();
 
     if (age === "") {
-      alert('Please enter an age');
+      // alert('Please enter an age');
+      $('#age').addClass('red glyphicon glyphicon-wrench');
+      $('#age').after('<i class="redText"> *Please add your age </i>');
     } else if (age >= 60 && genderPref === 'men') {
         $('.men-sixty').show();
     } else if (age >= 50 && age < 60 && genderPref === 'men') {

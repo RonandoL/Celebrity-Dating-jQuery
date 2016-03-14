@@ -13,3 +13,11 @@
 img {
   max-height: 385px;
 }
+
+.red {
+  background-color: #ffcccc;
+}
+
+.redText {
+  color: #ff0000;
+}
