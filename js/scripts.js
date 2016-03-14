@@ -12,18 +12,20 @@ $(function() {
     $('.woman-fifty').hide();
     $('.woman-under50').hide();
 
-    if (age >= 60 && genderPref === 'men') {
-      $('.men-sixty').show();
+    if (age === "") {
+      alert('Please enter an age');
+    } else if (age >= 60 && genderPref === 'men') {
+        $('.men-sixty').show();
     } else if (age >= 50 && age < 60 && genderPref === 'men') {
-      $('.men-fifty').show();
+        $('.men-fifty').show();
     } else if (age < 50 && genderPref === 'men') {
-      $('.men-under50').show();
+        $('.men-under50').show();
     } else if (age >= 60 && genderPref === 'women') {
-      $('.woman-sixty').show();
+        $('.woman-sixty').show();
     } else if (age >= 50 && age < 60 && genderPref === 'women') {
-      $('.woman-fifty').show();
+        $('.woman-fifty').show();
     } else if (age < 50 && genderPref === 'women') {
-      $('.woman-under50').show();
+        $('.woman-under50').show();
     } else {
 
     }
