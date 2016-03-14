@@ -1,0 +1,15 @@
+.woman-sixty, .woman-fifty, .woman-under50, .men-under50, .men-sixty, .men-fifty  {
+  display: none;
+}
+
+.padding15top {
+  margin-top: 15px;
+}
+
+/*.left {
+  float: left;
+}*/
+
+img {
+  max-height: 385px;
+}
